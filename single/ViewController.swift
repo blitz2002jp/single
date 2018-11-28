@@ -15,6 +15,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBOutlet weak var lab1: UILabel!
+    
+    @IBAction func btn1(_ sender: Any) {
+        lab1.text = "BTN1";
+    }
+    
+    @IBAction func btn2(_ sender: Any) {
+        lab1.text = "BTN2";
+    }
 }
 
